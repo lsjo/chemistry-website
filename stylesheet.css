@@ -1,0 +1,186 @@
+* {
+font-family: "Merriweather", sans-serif;
+}
+
+html {
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #005a7e 25%, transparent 25%), linear-gradient(225deg, #005a7e 25%, transparent 25%), linear-gradient(45deg, #005a7e 25%, transparent 25%), linear-gradient(315deg, #005a7e 25%, #e5e5f7 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 20px 20px;
+background-repeat: repeat;
+}
+
+body {
+margin: 25px;
+border: 2px solid gray;
+border-radius: 5px;
+padding: 25px;
+background: white;
+}
+
+.bebasneue {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 200;
+}
+
+.navigation {
+overflow: hidden;
+background-color: #333;
+}
+
+.navigation a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 24px;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 50;
+}
+
+.navigation a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.navigation a.active {
+background-color: #005a7e;
+color: white;
+}
+
+.factfile {
+float: right;
+width: 29%;
+border-radius: 10px;
+margin: 5px;
+max-width: 100%;
+}
+
+.factfile th, td {
+padding: 5px;
+}
+
+.factfile th {
+background-color: #005a7e;
+color: white;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 50;
+font-size: 21px;
+}
+
+.factfile tr:nth-child(odd){
+background-color: #f2f2f2;
+}
+
+.factfile table {
+border-collapse: collapse;
+width: 100%;
+text-align: center;
+}
+
+.textblock {
+float: left;
+width: 68%;
+text-align:justify;
+}
+
+h1 {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 200;
+font-size: 40px;
+margin-bottom: 0px;
+}
+
+h2 {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 100;
+font-size: 30px;
+margin-bottom: 0px;
+margin-top: 35px;
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.block {
+text-align: justify;
+word-spacing:-1px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.bobbyy:hover {
+background-color: #333;
+color: #f2f2f2;
+
+}
+
+
+.text-image {
+display: inline-block;
+text-align: right;
+}
+
+.text-image p {
+float: left;
+max-width: 50%;
+padding: 10px;
+}
+
+.text-image img {
+float: left;
+max-height: 250px;
+align: center;
+}
+
+.image-text {
+display: inline;
+}
+
+.image-text img {
+float: right;
+align: center;
+max-height: 220px;
+padding:10px;
+margin-right: 20px;
+}
+
+.image-text p {
+float: left;
+max-width: 100%;
+}
+
+.bobcenter {
+text-align: center;
+}
+
+img {
+max-width: 100%;
+}
+
+.right-box {
+float: right;
+width: 50%;
+}
+
+.left-box {
+float: left;
+width: 50%;
+}
+
+.annoyingthing {
+padding-top: 30px;
+padding-left: 20px;
+}
+
+.minus-margin {
+margin: -10px;
+}
